@@ -8,7 +8,7 @@ const quotes = [
     author: "Friedrich Nietzsche",
 },
 {
-    quote: "Love, free as air at sight of human ties, Spreads his light wings, and in a moment flies.0",
+    quote: "Love, free as air at sight of human ties, Spreads his light wings, and in a moment flies",
     author: "Alexander Pope",
 },
 {
