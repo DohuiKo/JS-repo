@@ -5,7 +5,7 @@ const IMG_NUMBER = 3;
 
 function paintImage(imgNumber) {
   const image = new Image(); // 이미지를 삽입하는 함수이다
-  image.src = `img/${imgNumber}.jpg`; // img폴더안에 있는 파일을 지정한다. imgNumber뒤에 1을 더한 이유는 아래 기술했다.
+  image.src = `img/${imgNumber+1}.jpg`; // img폴더안에 있는 파일을 지정한다. imgNumber뒤에 1을 더한 이유는 아래 기술했다.
   image.classList.add("bgImage"); // bgImage 클래스를 img 에 추가하여 세부조정 할 수 있게 한다.
   body.appendChild(image);
 }
