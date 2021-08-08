@@ -36,13 +36,30 @@ body {
 
 h1 {
     font-size: 3em;
+    text-shadow: 2px 2px 2px gray;
 }
 
 h2 {
     font-size: 1em;
+    text-shadow: 2px 2px 2px gray;
 }
 
 #quote {
     font-size: 1.5em;
     font-weight: 700;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#login-form input[type=text]{
+    width: 10em;
+    height: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#login-form input[type=submit]{
+    width: 4em;
+    height: 2em;
+    text-align: center;
+    border-radius: 5px;
 }
