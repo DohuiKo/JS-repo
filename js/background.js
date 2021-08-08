@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 // 배경이 위치할 곳은 body 태그이다. 그러므로 body태그를 지정해주자.
 
-const IMG_NUMBER = 3;
+const IMG_NUMBER = 4;
 
 function paintImage(imgNumber) {
   const image = new Image(); // 이미지를 삽입하는 함수이다
